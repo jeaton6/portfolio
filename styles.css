@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  background-color: #bfdadb;
+  align-items: center;
+  padding: 30px 20px;
+}
+
+.contact {
+  border: 2px solid #FFFFFF;
+  margin-top: 20px;
+  padding: 5px;
+}
+
+#contact-info {
+
+}
+
+h1, h2 {
+  font-family: "Calibri Light", "Calibri", sans-serif;
+  color: #333863;
+}
+
+h1 {
+  font-size: 2.3em;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.6em;
+}
+
+p, li {
+  color: #6c6e82;
+  font-family: "Candara", "Calibri", sans-serif;
+}
+
+p {
+  padding: 10px 5px;
+}
+
+ul {
+  list-style-type: disc;
+  padding: 10px 5px;
+  margin-left: 15px;
+}
+
+li {
+  margin-left: 5px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333863;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  color: #6c6e82;
+}

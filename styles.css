@@ -4,20 +4,18 @@
   box-sizing: border-box;
 }
 
-.page {
+.content {
+
+}
+
+body {
   background-color: #bfdadb;
   align-items: center;
-  padding: 30px 20px;
 }
 
-.contact {
-  border: 2px solid #FFFFFF;
-  margin-top: 20px;
-  padding: 5px;
-}
-
-#contact-info {
-
+.main-page {
+  max-width: 1200px;
+  margin: auto;
 }
 
 h1, h2 {
@@ -53,26 +51,68 @@ li {
   margin-left: 5px;
 }
 
-.navbar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
   background-color: #333863;
 }
 
-.navbar li {
-  float: left;
+.navbar {
+  border: 1px solid #fff;
+  display: flex;
+  justify-content: space-around;
 }
 
-.navbar li a {
-  display: block;
+.navbar a {
   color: white;
-  text-align: center;
-  padding: 14px 16px;
   text-decoration: none;
+  font-family: "Calibri Light", "Calibri", sans-serif;
 }
 
-.navbar li a:hover {
+.navbar a:hover {
   color: #6c6e82;
+}
+
+.header-container {
+  display: flex;
+  justify-content: center;
+  background-color: #bfdadb;
+}
+
+.header {
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-container {
+  display: flex;
+  justify-content: center;
+}
+
+.page {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.page-item {
+  border: 1px solid #fff;
+  width: 350px;
+  height: 350px;
+  padding: 6px;
+}
+
+.contact-container {
+  display: block;
+  justify-content: center;
+}
+
+.contact {
+  border: 2px solid #FFFFFF;
+  margin: 20px;
+  padding: 15px;
+  display: block;
 }
